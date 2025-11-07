@@ -22,12 +22,12 @@ while True:
 
 import matplotlib.pyplot as plt
 
-y = [12,16,22,46,9,1,100]
-x = ["part1", "part2", "part3", "part4", "part5", "part6", "part7"]
+y = quantity
+x = amount
 
 plt.bar(x,y)
 plt.bar(x,y, color='red')
-plt.title('Bar chart example', fontsize=24)
+plt.title(name, fontsize=12)
 plt.xlabel('Popularity')
 plt.ylabel('parts')
 plt.show()
